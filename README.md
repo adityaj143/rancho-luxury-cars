@@ -1,33 +1,96 @@
-# rancho-luxury-cars
+# Rancho Motors
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+> Luxury, backed by logic.
 
-## Built with v0
+A premium luxury-car marketplace designed to make car buying more informed, transparent, and decision-focused.
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+Rancho Motors allows users to discover luxury vehicles, explore detailed specifications, compare cars, calculate estimated EMIs, save favourite vehicles, and book test drives through a modern responsive interface.
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_woVOtxHyZER4IACdV3LcQozOOkmo)
+## Live Demo
 
-## Getting Started
+[Visit Rancho Motors](https://rancho-luxury-cars.vercel.app/)
 
-First, run the development server:
+## GitHub Repository
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+[View the Source Code](https://github.com/adityaj143/rancho-luxury-cars)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-## Learn More
+Rancho Motors focuses on a simple decision-making journey:
 
-To learn more, take a look at the following resources:
+**Discover → Analyze → Compare → Calculate → Experience → Decide**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+Instead of simply displaying luxury vehicles, the platform provides practical tools that help users research, evaluate, compare, and shortlist vehicles before making a purchasing decision.
+
+---
+
+## Features
+
+- Browse a curated collection of luxury vehicles
+- Search vehicles by brand or model
+- Filter vehicles by:
+  - Brand
+  - Body type
+  - Fuel type
+  - Transmission
+  - Price range
+  - Performance
+- Sort vehicles based on different criteria
+- View detailed vehicle specifications
+- View vehicle features and highlights
+- Compare multiple vehicles side-by-side
+- Highlight important differences between vehicles
+- Interactive EMI calculator
+- Save favourite vehicles
+- Persistent saved vehicles using browser storage
+- Multi-step test-drive booking
+- Form validation
+- Test-drive booking confirmation
+- View and manage test-drive bookings
+- Cancel saved bookings
+- Responsive desktop, tablet, and mobile interface
+- Premium automotive-focused UI
+- Accessible navigation and interactive components
+- Global vehicle search
+- Empty states and error handling
+- Smooth UI interactions and animations
+
+---
+
+## Main Pages
+
+| Route | Description |
+|---|---|
+| `/` | Homepage and vehicle discovery |
+| `/cars` | Vehicle marketplace with search, filters, and sorting |
+| `/cars/[id]` | Detailed vehicle information and specifications |
+| `/compare` | Side-by-side vehicle comparison |
+| `/emi-calculator` | Interactive EMI calculator |
+| `/test-drive` | Test-drive booking workflow |
+| `/saved` | Saved / favourite vehicles |
+| `/bookings` | Test-drive booking management |
+
+---
+
+## Core User Flow
+
+```text
+Homepage
+    ↓
+Explore Cars
+    ↓
+Search / Filter
+    ↓
+Vehicle Details
+    ↓
+Compare Vehicles
+    ↓
+Calculate EMI
+    ↓
+Save Vehicle
+    ↓
+Book Test Drive
+    ↓
+Booking Confirmation
